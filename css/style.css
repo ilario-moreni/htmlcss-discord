@@ -10,15 +10,11 @@
 
 
 
-section{
+section, footer{
     padding: 100px 0;
 }
 
-footer{
-    background-color:grey;
-    display: flex;
-    padding: 30px 0;
-}
+
 
 
 .section_2, .section_4{
@@ -65,7 +61,7 @@ h3{
     font-size: 32px;
 }
 
-p{
+p, li{
     line-height: 1.5em;
 }
 
@@ -213,15 +209,18 @@ h1{
 
 /* footer */
 
-/* footer .container{
-    
-} */
+footer{
+    background-color:#23272A;
+    display: flex;
+}
 
 footer .row_2{
     padding:10px 0;
     margin-top: 20px;
     height: 10%;
     align-items: center;
+    border-top: 1px solid #6F85D4;
+    padding-top:25px;
 }
 
 footer .row_2 .col_1{
@@ -234,16 +233,56 @@ footer .row_2 .col_2{
 
 footer .row_1 .col_1{
     width:25%;
+    margin-right: 10%;
 }
 
 footer .col_ul{
-    width: calc(75% / 4);
-    background-color:blueviolet;
+    width: calc(65% / 4);
+}
+
+li.blue{
+    color:#6F85D4;
+}
+
+footer li{
+    color:white;
+    list-style-type: none;
+    font-size: 16px;
+}
+
+footer h3{
+    color:#6F85D4;
+    margin-bottom: 20px;
+}
+
+footer span{
+    color:white;
+}
+
+footer .ita_logo{
+    width:25px;
+}
+
+select{
+    background-color: #23272A;
+    color:white;
+    font-size: 16px;
 }
 
 
+.social_logos{
+    margin-top: 20px;
+}
 
-/* ottimizzare
-    section p 
+.loghi_social{
+    color:white;
+    width:20px;
+    margin-right: 15px;
+}
 
-*/
+.registrati{
+    background-color: #8EA1E1;
+    padding: 8px 15px;
+    border-radius: 30px;
+    font-size: 14px;
+}
