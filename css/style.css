@@ -8,7 +8,9 @@
     font-size: 20px;
 }
 
-
+.button_shadow:hover{
+    box-shadow: 0px 10px 15px 1px  #23272a4e;
+}
 
 section, footer{
     padding: 100px 0;
@@ -78,6 +80,11 @@ header{
     height: 565px;
 }
 
+
+.header_a:hover{
+    text-decoration: underline;
+}
+
 header .col_1{
     width:25%;
 }
@@ -111,8 +118,9 @@ a{
     color: inherit;
 }
 
-
-
+.section_3, .section_5{
+    background-color: #F6F6F6;
+}
 /* section 1 */
 
 .section_1 .container{
@@ -250,6 +258,10 @@ footer li{
     font-size: 16px;
 }
 
+footer li:not(.blue):hover{
+    text-decoration: underline;
+}
+
 footer h3{
     color:#6F85D4;
     margin-bottom: 20px;
@@ -285,4 +297,8 @@ select{
     padding: 8px 15px;
     border-radius: 30px;
     font-size: 14px;
+}
+
+.button_lighter:hover{
+    background-color: #afbde8;
 }
